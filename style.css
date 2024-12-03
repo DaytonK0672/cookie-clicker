@@ -1,0 +1,51 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+}
+
+#cookie-container {
+    margin: 20px 0;
+}
+
+#cookie {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+#cookie-count {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#buy-upgrade {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ffb84d;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+#buy-upgrade:hover {
+    background-color: #ff9933;
+}
